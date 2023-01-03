@@ -1,45 +1,78 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public CharacterController controller;
-    public float speed= 12f;
-    public float gravity = -9.81f;
+    [Header("Movement")]
+    public float moveSpeed = 5;
 
-    public Transform groundCheck;
-    public float groundDistance = 0.4f;
-    public LayerMask grounMask;
+    public float groundDrag;
 
-    Vector3 velocity;
-    bool isGrounded;
+    [Header("Ground Check")]
+    public float playerHeight;
+    public LayerMask whatIsGround;
+    bool grounded;
+
+    public Transform orientation;
+
+    float horizontalInput;
+    float verticalInput;
+
+    Vector3 moveDirection;
+
+    Rigidbody rb;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody>();
+        rb.freezeRotation = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, grounMask);
+        grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.1f + 0.2f, whatIsGround);
 
-        if(isGrounded && velocity.y < 0)
+        MyInput();
+        SpeedControl();
+
+        if (grounded)
         {
-            velocity.y = -2f;
+            rb.drag = groundDrag;
         }
+        else
+            rb.drag = 0;
+    }
 
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
+    private void FixedUpdate()
+    {
+        movePlayer();
+    }
 
-        Vector3 move = transform.right * x + transform.forward * z;
+    private void MyInput()
+    {
+        horizontalInput = Input.GetAxisRaw("Horizontal");
+        verticalInput = Input.GetAxisRaw("Vertical");
+    }
 
-        controller.Move(move * speed * Time.deltaTime);
+    private void movePlayer()
+    {
+        moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 
-        velocity.y += gravity * Time.deltaTime;
+        rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
+    }
 
-        controller.Move(velocity*Time.deltaTime);
+    private void SpeedControl()
+    {
+        Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+
+        if (flatVel.magnitude > moveSpeed)
+        {
+            Vector3 limitedVel = flatVel.normalized * moveSpeed;
+            rb.velocity = new Vector3(limitedVel.x, rb.velocity.y, limitedVel.z);
+        }
     }
 }
