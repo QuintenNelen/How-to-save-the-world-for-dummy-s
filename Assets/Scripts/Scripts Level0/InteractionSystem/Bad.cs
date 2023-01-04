@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Perfect : MonoBehaviour, Iinteractible
+public class Bad : MonoBehaviour
 {
     [SerializeField] private string promt;
     [SerializeField] GameOverManager gameOverManager;

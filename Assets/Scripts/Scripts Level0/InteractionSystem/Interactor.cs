@@ -9,7 +9,7 @@ public class Interactor : MonoBehaviour
     [SerializeField] private LayerMask interactableMask;
     [SerializeField] private InteractionPromtUI interactionPromtUI;
 
-    private readonly Collider[] colliders = new Collider[3];
+    private readonly Collider[] colliders = new Collider[1];
     [SerializeField] private int numFound;
 
     private Iinteractible interactable;
@@ -17,7 +17,7 @@ public class Interactor : MonoBehaviour
     private void Update()
     {
         numFound = Physics.OverlapSphereNonAlloc(interactionPoint.position, interactionPointRadius, colliders, interactableMask);
-
+        //als hij een inteacteble vind
         if(numFound > 0)
         {
             interactable = colliders[0].GetComponent<Iinteractible>();
@@ -47,9 +47,10 @@ public class Interactor : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmos()
+    //for debug
+    /*private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(interactionPoint.position, interactionPointRadius);
-    }
+    }*/
 }
