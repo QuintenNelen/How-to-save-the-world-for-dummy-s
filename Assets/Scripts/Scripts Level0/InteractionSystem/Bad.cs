@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bad : MonoBehaviour
+public class Bad : MonoBehaviour, Iinteractible
 {
     [SerializeField] private string promt;
     [SerializeField] GameOverManager gameOverManager;
@@ -10,7 +10,6 @@ public class Bad : MonoBehaviour
 
     public bool Interact(Interactor interactor)
     {
-        //Debug.Log("plant!");
         gameOverManager.SetGameOver();
         return true;
     }

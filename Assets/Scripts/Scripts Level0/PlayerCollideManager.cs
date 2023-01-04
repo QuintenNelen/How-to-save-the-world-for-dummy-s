@@ -11,7 +11,7 @@ public class PlayerCollideManager : MonoBehaviour
     {
         if (other.gameObject.tag == "Road")
         {
-            Debug.Log("Game Over");
+            //Debug.Log("Game Over");
 
             gameOverManager.SetGameOver();
         }
