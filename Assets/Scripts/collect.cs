@@ -9,6 +9,7 @@ public class collect : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             Destroy(gameObject);
+            nextLevel.pickedUp = true;
         }
     }
 }

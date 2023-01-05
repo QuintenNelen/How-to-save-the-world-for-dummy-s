@@ -12,9 +12,10 @@ public class nextLevel : MonoBehaviour
         cScene = SceneManager.GetActiveScene();
         sceneName = cScene.name;    
     }
+    static public bool pickedUp = false;
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" && pickedUp == true) 
         {
             switch (sceneName)
             {
