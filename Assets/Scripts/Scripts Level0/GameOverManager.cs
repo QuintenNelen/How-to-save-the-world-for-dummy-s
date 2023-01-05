@@ -19,6 +19,6 @@ public class GameOverManager : MonoBehaviour
     public void RestartGame()
     {
         //Debug.Log("restarted");
-        SceneManager.LoadScene(0); //reload scene
+        SceneManager.LoadScene(2); //reload scene
     }
 }

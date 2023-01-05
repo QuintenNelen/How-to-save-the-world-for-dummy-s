@@ -679,13 +679,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 455f0441227e5cd4e993073dd25d4025, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  groundDrag: 0
-  playerHeight: 0
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 0
-  orientation: {fileID: 0}
 --- !u!54 &95094894
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4673,10 +4666,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1596390851}
   - component: {fileID: 1596390850}
-  - component: {fileID: 1596390852}
   - component: {fileID: 1596390854}
   - component: {fileID: 1596390855}
   - component: {fileID: 1596390856}
+  - component: {fileID: 1596390857}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -4718,25 +4711,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1596390852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1596390849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 455f0441227e5cd4e993073dd25d4025, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2
-  groundDrag: 5
-  playerHeight: 0.2
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 64
-  orientation: {fileID: 1167272368}
 --- !u!136 &1596390854
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4783,6 +4757,26 @@ MonoBehaviour:
     m_Bits: 128
   interactionPromtUI: {fileID: 240904585}
   numFound: 0
+--- !u!114 &1596390857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596390849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c566b267c66114c99c08cdf4d23255, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 1
+  groundDrag: 5
+  playerHeight: 0.2
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 0
+  orientation: {fileID: 1167272368}
+  rb: {fileID: 1596390850}
 --- !u!114 &1605066343 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4057945782158033031, guid: 104cd8a4e7b28254c9f80fd50f673aad, type: 3}
