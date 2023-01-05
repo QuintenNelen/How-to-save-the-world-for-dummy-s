@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Shovel
   - garbage
+  - zaad
   - Road
   - Road_Save
   - Perfect
@@ -22,8 +23,8 @@ TagManager:
   - Ground
   - Interactable
   - 
-  - 
-  - 
+  - whatIsPlayer
+  - whatIsGround
   - 
   - 
   - 
