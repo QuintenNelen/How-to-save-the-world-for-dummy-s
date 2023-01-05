@@ -5,6 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Shovel
+  - garbage
+  - Road
+  - Road_Save
+  - Perfect
+  - Oke
+  - Bad
+  - Why
   layers:
   - Default
   - TransparentFX
@@ -12,8 +19,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Ground
+  - Interactable
   - 
   - 
   - 
