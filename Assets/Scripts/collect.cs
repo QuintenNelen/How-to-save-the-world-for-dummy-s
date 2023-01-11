@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class collect : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
