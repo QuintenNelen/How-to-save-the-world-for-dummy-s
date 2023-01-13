@@ -6161,7 +6161,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2ec25ad986ab33e49b8157df8b085601, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2ec25ad986ab33e49b8157df8b085601, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6224,7 +6224,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2124626247020230137, guid: 2ec25ad986ab33e49b8157df8b085601, type: 3}
---- !u!114 &216173405
+--- !u!114 &216173401
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6233,7 +6233,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 216173399}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51ef1368c2c7ba54e8c198b82780ae46, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f731cba65c622b499453361fdc630cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &216581900
@@ -37646,7 +37646,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de0b0ba54f73bc44196a3767d5132495, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.20000005
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de0b0ba54f73bc44196a3767d5132495, type: 3}
       propertyPath: m_LocalPosition.z
@@ -37709,7 +37709,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7033663635467597644, guid: de0b0ba54f73bc44196a3767d5132495, type: 3}
---- !u!114 &1255367194
+--- !u!114 &1255367190
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37718,7 +37718,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1255367188}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51ef1368c2c7ba54e8c198b82780ae46, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f731cba65c622b499453361fdc630cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1256363089 stripped
@@ -40026,6 +40026,7 @@ GameObject:
   - component: {fileID: 1301734580}
   - component: {fileID: 1301734579}
   - component: {fileID: 1301734578}
+  - component: {fileID: 1301734583}
   m_Layer: 0
   m_Name: door
   m_TagString: Untagged
@@ -40126,6 +40127,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1301734583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301734577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcff9434be219654586644fb6f99638b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1302995125
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51014,7 +51027,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf088ff2c9c388848971f9b4a08f4dbc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf088ff2c9c388848971f9b4a08f4dbc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -51077,7 +51090,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!114 &1640151616
+--- !u!114 &1640151614
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -51086,7 +51099,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1640151612}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51ef1368c2c7ba54e8c198b82780ae46, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f731cba65c622b499453361fdc630cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1643369938
@@ -51623,7 +51636,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1191563123689623649, guid: 2d615367ebba1fb4a8bd50534143f901, type: 3}
---- !u!114 &1662582782
+--- !u!114 &1662582775
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -51632,7 +51645,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1662582773}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51ef1368c2c7ba54e8c198b82780ae46, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f731cba65c622b499453361fdc630cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1664157442
@@ -53798,7 +53811,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5bf9559c109491748a5cc2b1a3275e26, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.19
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5bf9559c109491748a5cc2b1a3275e26, type: 3}
       propertyPath: m_LocalPosition.z
@@ -53861,7 +53874,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -681571568004245037, guid: 5bf9559c109491748a5cc2b1a3275e26, type: 3}
---- !u!114 &1735199409
+--- !u!114 &1735199405
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -53870,7 +53883,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1735199403}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51ef1368c2c7ba54e8c198b82780ae46, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f731cba65c622b499453361fdc630cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1736762551
@@ -55805,7 +55818,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795172200}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -71.8, y: 1.5, z: -0.7}
+  m_LocalPosition: {x: 1.9, y: 1.5, z: -82.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -66287,7 +66300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b53e9ac80785d3e41a8e5b774d8d3950, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b53e9ac80785d3e41a8e5b774d8d3950, type: 3}
       propertyPath: m_LocalPosition.z
@@ -66350,7 +66363,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!114 &2072194680
+--- !u!114 &2072194678
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -66359,7 +66372,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2072194676}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51ef1368c2c7ba54e8c198b82780ae46, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f731cba65c622b499453361fdc630cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2072497086
