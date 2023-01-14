@@ -13,7 +13,7 @@ public class walkingMusic : MonoBehaviour
     {
         if(Input.GetKeyUp(KeyCode.Z) || Input.GetKeyUp(KeyCode.Q) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.D)  )
         {
-            footsteps.enabled = true;
+            footsteps.enabled = true; //when keys are pressed music plays
         }
         else
         {

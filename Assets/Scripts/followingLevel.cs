@@ -12,7 +12,7 @@ public class followingLevel : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player" && points == 5)
         {
-            SceneManager.LoadScene("Level4");
+            SceneManager.LoadScene("Level4"); //on collision and enough points load next level
         }
     }
 }
