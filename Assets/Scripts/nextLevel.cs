@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class nextLevel : MonoBehaviour
 {
+    //script dat ervoor zorgt dat er telkens naar het volgende level wordt gegaan
     Scene cScene;
     string sceneName;
     private void Start()

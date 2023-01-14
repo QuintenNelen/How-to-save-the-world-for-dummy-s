@@ -6,6 +6,7 @@ public class quitButton : MonoBehaviour
 {
     public void QuitGame()
     {
+        //sluit de applicatie af
         Debug.Log("Quit");
         Application.Quit();
     }
