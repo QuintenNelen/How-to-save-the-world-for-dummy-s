@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Points : MonoBehaviour
 {
-     private void OnTriggerEnter(Collider other)
+     void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.tag == "Player")
         {
             Destroy(gameObject);
+            nextLevel.pickedUp = true;
         }
     }
 }
