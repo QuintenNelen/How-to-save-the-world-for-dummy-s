@@ -2175,7 +2175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e6b6abe431fb04a86ac57ea277cec4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverManager: {fileID: 1779832780}
+  gameOverManager: {fileID: 0}
 --- !u!1001 &922955056
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3900,7 +3900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5495263346d56884ca26b7021d496864, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  promt: Plant tree here (E)
+  promt: Plant here? (E)
   animator: {fileID: 921165466}
 --- !u!1 &1413687395
 GameObject:
@@ -5166,17 +5166,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4678578378552969516, guid: 5b6934db7d9c75646bc9ba36c7d7a40d, type: 3}
   m_PrefabInstance: {fileID: 768357965}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1779832780 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4057945782158033031, guid: 104cd8a4e7b28254c9f80fd50f673aad, type: 3}
-  m_PrefabInstance: {fileID: 1240066383}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9bfe8e041440a34e91278ce2331fffa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1791455580 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6045988359773162118, guid: aee938332950e8b4fa0fa37f0e7012c4, type: 3}
