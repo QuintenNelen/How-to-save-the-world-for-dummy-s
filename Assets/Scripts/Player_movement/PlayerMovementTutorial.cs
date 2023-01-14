@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+//movement player
+
 public class PlayerMovementTutorial : MonoBehaviour
 {
     [Header("Movement")]
