@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//items op pikken en vernietig  
 public class collect : MonoBehaviour
 {
     //script dat zorgt dat de pick-up wordt verwijderd bij een trigger
