@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Item soundtrack van player collect sound + score optellen 
+
 public class collectseed : MonoBehaviour
 {
     public AudioSource collectSound;
-    // Start is called before the first frame update
+   
   void OnTriggerEnter(Collider other)
     {
         collectSound.Play();

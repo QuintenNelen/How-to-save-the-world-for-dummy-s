@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//stappen + geluid toevoegen van stappen
 public class Stepping : MonoBehaviour
 {
     [SerializeField]

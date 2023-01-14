@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+//score board visueel score laten zien via textmeshpro
+
 public class keepscore : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
@@ -16,10 +18,6 @@ public class keepscore : MonoBehaviour
         
     }
 
-    /*void update(){
-        Thescore += 1;
-        scoreText.text = "Score: " + Thescore;
-    }*/
 
    
 }
