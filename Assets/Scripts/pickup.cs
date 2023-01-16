@@ -11,7 +11,7 @@ public class pickup : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Destroy(gameObject);
-
+            nextLevel.pickedUp = true;
             followingLevel.points += 1;
         }
     }
