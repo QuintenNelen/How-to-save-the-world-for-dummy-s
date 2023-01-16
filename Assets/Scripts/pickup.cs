@@ -6,13 +6,21 @@ using UnityEngine.SceneManagement;
 public class pickup : MonoBehaviour
 {
 
-    private void OnCollisionEnter(Collision collision)
+    [SerializeField]
+    AudioSource pickupSound;
+    void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
+            pickupSound.enabled = true;
             Destroy(gameObject);
-
+            
             followingLevel.points += 1;
+            Debug.Log(followingLevel.points);
+        }
+        else
+        {
+            pickupSound.enabled = false;
         }
     }
 }
