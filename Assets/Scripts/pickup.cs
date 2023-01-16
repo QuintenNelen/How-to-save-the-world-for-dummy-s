@@ -5,22 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class pickup : MonoBehaviour
 {
-
-    [SerializeField]
-    AudioSource pickupSound;
+    public AudioSource audioSource;
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
-            pickupSound.enabled = true;
+            audioSource.Play();
             Destroy(gameObject);
             
             followingLevel.points += 1;
             Debug.Log(followingLevel.points);
         }
-        else
-        {
-            pickupSound.enabled = false;
-        }
+
     }
 }
