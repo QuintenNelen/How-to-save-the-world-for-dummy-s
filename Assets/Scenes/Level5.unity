@@ -4598,9 +4598,9 @@ GameObject:
   - component: {fileID: 1596390850}
   - component: {fileID: 1596390854}
   - component: {fileID: 1596390855}
-  - component: {fileID: 1596390857}
+  - component: {fileID: 1596390861}
   - component: {fileID: 1596390859}
-  - component: {fileID: 1596390858}
+  - component: {fileID: 1596390862}
   - component: {fileID: 1596390860}
   m_Layer: 0
   m_Name: Player
@@ -4670,39 +4670,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverManager: {fileID: 1605177681}
---- !u!114 &1596390857
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1596390849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02c566b267c66114c99c08cdf4d23255, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 1
-  groundDrag: 5
-  playerHeight: 0.2
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 0
-  orientation: {fileID: 1167272368}
-  rb: {fileID: 1596390850}
---- !u!114 &1596390858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1596390849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cd3401c50e9e39409f7a21a60d22bf3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  footsteps: {fileID: 1596390859}
 --- !u!82 &1596390859
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4818,6 +4785,39 @@ MonoBehaviour:
     m_Bits: 128
   interactionPromtUI: {fileID: 240904585}
   numFound: 0
+--- !u!114 &1596390861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596390849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fd594059ff167449ac166c1fa3c1b2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 2
+  groundDrag: 5
+  playerHeight: 0.2
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 0
+  orientation: {fileID: 1167272368}
+  rb: {fileID: 1596390850}
+--- !u!114 &1596390862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596390849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc8d137e75bb735458942c911b15168d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footsteps: {fileID: 1596390859}
 --- !u!114 &1605066343 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4057945782158033031, guid: 104cd8a4e7b28254c9f80fd50f673aad, type: 3}
@@ -6457,7 +6457,7 @@ PrefabInstance:
     - target: {fileID: 516465887824761759, guid: f5882548699c2b24b87cf487b63ea4ed, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 5438873483737624092}
+      objectReference: {fileID: 5438873483737624097}
     - target: {fileID: 516465887824761759, guid: f5882548699c2b24b87cf487b63ea4ed, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -6485,7 +6485,7 @@ PrefabInstance:
     - target: {fileID: 2484796513791973958, guid: f5882548699c2b24b87cf487b63ea4ed, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 5438873483737624092}
+      objectReference: {fileID: 5438873483737624097}
     - target: {fileID: 2484796513791973958, guid: f5882548699c2b24b87cf487b63ea4ed, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -7211,7 +7211,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5466966420922385365, guid: f5882548699c2b24b87cf487b63ea4ed, type: 3}
   m_PrefabInstance: {fileID: 46252483053989326}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &5438873483737624092
+--- !u!114 &5438873483737624097
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7220,7 +7220,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5438873483737624091}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a77d2bc807ac48248920cc62b8fde1a6, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d27cd3b001969a498627e1d8292c6d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gamePauze: {fileID: 5438873483723444907}

@@ -20,6 +20,8 @@ public class PauzeGame : MonoBehaviour
     {
         gamePauze.SetActive(false); //Turns UI off again and you can continue playing the game
         //Debug.Log("continue");
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     public void QuitGameInPauze()
