@@ -41286,6 +41286,7 @@ GameObject:
   - component: {fileID: 1893719314}
   - component: {fileID: 1893719316}
   - component: {fileID: 1893719317}
+  - component: {fileID: 1893719318}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -41523,6 +41524,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   footsteps: {fileID: 1893719316}
+--- !u!114 &1893719318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893719307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f731cba65c622b499453361fdc630cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 1430898912}
 --- !u!1 &1895864873 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 13430dcb84ae38a4d95db79f11d2775f, type: 3}
