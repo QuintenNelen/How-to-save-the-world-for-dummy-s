@@ -8,10 +8,11 @@ public class followingLevel : MonoBehaviour
    
     static public int points=0;
     // Update is called once per frame
-    private void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter (Collider other)
     {
-        if(collision.gameObject.tag == "Player" && points == 5)
+        if(other.gameObject.tag == "Player" && points == 4 )
         {
+            Debug.Log("Collid");
             SceneManager.LoadScene("Level4"); //on collision and enough points load next level
         }
     }

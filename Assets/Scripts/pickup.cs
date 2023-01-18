@@ -5,14 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class pickup : MonoBehaviour
 {
-
-    private void OnCollisionEnter(Collision collision)
+    public AudioSource audioSource;
+    void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
+            audioSource.Play(); //play pickup sound
             Destroy(gameObject);
-
-            followingLevel.points += 1;
+            
+            followingLevel.points += 1; //get a point 
+            Debug.Log(followingLevel.points);
         }
+
     }
 }
