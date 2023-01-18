@@ -10,10 +10,10 @@ public class pickup : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            audioSource.Play();
+            audioSource.Play(); //play pickup sound
             Destroy(gameObject);
             
-            followingLevel.points += 1;
+            followingLevel.points += 1; //get a point 
             Debug.Log(followingLevel.points);
         }
 
