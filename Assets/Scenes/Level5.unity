@@ -434,7 +434,7 @@ PrefabInstance:
     - target: {fileID: 4057945780797961090, guid: 104cd8a4e7b28254c9f80fd50f673aad, type: 3}
       propertyPath: m_Text
       value: "Ending: 2/4 \nYou planted the tree in a house.\nWhy did you ever think
-        this was going to work?"
+        that was going to work?"
       objectReference: {fileID: 0}
     - target: {fileID: 4057945781910076458, guid: 104cd8a4e7b28254c9f80fd50f673aad, type: 3}
       propertyPath: m_IsActive
@@ -3166,7 +3166,7 @@ PrefabInstance:
     - target: {fileID: 4057945780797961090, guid: 104cd8a4e7b28254c9f80fd50f673aad, type: 3}
       propertyPath: m_Text
       value: "Ending: 4/4 \nYou did it. You planted a tree! \nBut did it really help
-        the plant? \nNO this is a game\nNow go do it also in real life"
+        the plant? \nNO! this is a game\nNow go do it in real life, you lazy!"
       objectReference: {fileID: 0}
     - target: {fileID: 4057945780797961090, guid: 104cd8a4e7b28254c9f80fd50f673aad, type: 3}
       propertyPath: m_FontData.m_FontSize
@@ -3603,7 +3603,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4057945780797961090, guid: 104cd8a4e7b28254c9f80fd50f673aad, type: 3}
       propertyPath: m_Text
-      value: "Ending: 3/4 \nOke, you planted the tree in a tiny plant pot...smart\nIt
+      value: "Ending: 3/4 \nOkay, you planted the tree in a tiny plant pot...smart.\nIt
         will never grow beyond 0.5m..."
       objectReference: {fileID: 0}
     - target: {fileID: 4057945781910076458, guid: 104cd8a4e7b28254c9f80fd50f673aad, type: 3}
@@ -4448,8 +4448,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4057945780797961090, guid: 104cd8a4e7b28254c9f80fd50f673aad, type: 3}
       propertyPath: m_Text
-      value: "Ending: 1/4 \nYou planted the tree on the road\nIt got driven over...
-        and over again \nand dead before it even got the chance to grow"
+      value: "Ending: 1/4 \nYou planted the tree on the road.\nIt got driven over...
+        and over again.\nIt dided before it even got the chance to grow."
       objectReference: {fileID: 0}
     - target: {fileID: 4057945780797961093, guid: 104cd8a4e7b28254c9f80fd50f673aad, type: 3}
       propertyPath: m_SizeDelta.y

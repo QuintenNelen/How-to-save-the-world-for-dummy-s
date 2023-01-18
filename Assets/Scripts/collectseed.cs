@@ -11,6 +11,9 @@ public class collectseed : MonoBehaviour
   void OnTriggerEnter(Collider other)
     {
         collectSound.Play();
+        
+        followingLevel.points += 1;
+        Debug.Log(followingLevel.points);
         keepscore.Thescore += 1;
         Destroy(gameObject);
 
