@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 128
+  controlID: 59
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 60
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
+  controlID: 50
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,22 +346,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Music
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Music
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\quint\Documents\APHogeschool\jaar 22-23\3D\How-to-save-the-world-for-dummy-s
+  m_LastProjectPath: C:\Users\quint\Documents\APHogeschool\jaar 22-23\3D\how to save
+    the world for dummy's\How-to-save-the-world-for-dummy-s
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 135}
-    m_SelectedIDs: d4760000
-    m_LastClickedID: 30420
-    m_ExpandedIDs: 000000003a760000d4760000f277000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: b85e0000
+    m_LastClickedID: 24248
+    m_ExpandedIDs: 00000000705e0000c85e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -389,7 +390,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003a760000
+    m_ExpandedIDs: 00000000705e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -414,8 +415,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c0ec0200
-    m_LastClickedInstanceID: 191680
+    m_SelectedInstanceIDs: e0840300
+    m_LastClickedInstanceID: 230624
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -516,10 +517,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 98ec0200
-      m_LastClickedID: 191640
-      m_ExpandedIDs: b015ffff122bffffaa43ffffcc48ffffb661ffffc861ffff4666ffff5469ffff6c6dffffe078ffff6286ffff6486ffff6686ffff6a86ffff8e89ffffcc9affff5e9fffffc4a5ffff92a8ffff54acffff10b4ffff42b9ffff1abaffff7cbbffff94c1ffff9ce6ffff2efbffff5cb401005eb40100
+      scrollPos: {x: 0, y: 720}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: aa1fffff402affff5e43fffffe4dffff8459ffff8e63ffff5267fffff86effff4e8fffffd09dffff6ca9ffffe8b8ffff6abdffff80d6ffff92d6ffff10dbffff8ae9ffff4eeaffffb8ebfffff4ebffff2cecffff64ecffff9cecffff4cedffffaaf3ffffb4f6ffffeafaffffbaa10000aa4a0300764b0300c0840300
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -790,9 +791,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 28.429998, y: 1.4099998, z: 29.689999}
+    m_Target: {x: 0.961895, y: -105.50333, z: -21.610416}
     speed: 2
-    m_Value: {x: 28.429998, y: 1.4099998, z: 29.689999}
+    m_Value: {x: 0.961895, y: -105.50333, z: -21.610416}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -839,13 +840,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.2801849, y: 0.31886184, z: -0.09926979, w: 0.89999306}
+    m_Target: {x: 0.17687875, y: 0.7855115, z: -0.53258276, w: 0.2609037}
     speed: 2
-    m_Value: {x: 0.28018233, y: 0.31885892, z: -0.09926888, w: 0.8999848}
+    m_Value: {x: 0.17687614, y: 0.7854999, z: -0.5325749, w: 0.26089984}
   m_Size:
-    m_Target: 5.7163105
+    m_Target: 67.87956
     speed: 2
-    m_Value: 5.470154
+    m_Value: 67.87956
   m_Ortho:
     m_Target: 0
     speed: 2
