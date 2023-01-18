@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class mouseMovement : MonoBehaviour
 {
+    //script dat ervoor zorgt dat de camera van de player de muis volgt
     public float mouseSens;
     public Transform player;
     float rotX = 0f;

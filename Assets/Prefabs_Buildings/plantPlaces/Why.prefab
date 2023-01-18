@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6017879832541468036}
   - component: {fileID: 6017879832541468037}
   - component: {fileID: 6017879832541468038}
-  - component: {fileID: 2466423436842235091}
+  - component: {fileID: 1171713897}
   m_Layer: 7
   m_Name: Why
   m_TagString: Why
@@ -98,7 +98,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2466423436842235091
+--- !u!114 &1171713897
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,7 +107,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6017879832541468032}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d53ebf013f25c84f8d524e7b6b6a104, type: 3}
+  m_Script: {fileID: 11500000, guid: e1a9712b255035a418edc78dfe365b43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   promt: Plant tree here (E)
