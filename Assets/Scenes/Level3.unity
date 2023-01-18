@@ -64723,7 +64723,15 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: fba1e1a74e0e9f34fa3f74d75cddc2cb, type: 3}
   m_PlayOnAwake: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_Volume: 0.6
+=======
+  m_Volume: 0.8
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+  m_Volume: 0.8
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
   m_Volume: 0.8
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31

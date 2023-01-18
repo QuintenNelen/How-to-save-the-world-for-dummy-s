@@ -858,6 +858,12 @@ GameObject:
   - component: {fileID: 332136379}
   - component: {fileID: 332136380}
   - component: {fileID: 332136381}
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
   m_Layer: 9
   m_Name: Player
@@ -875,8 +881,14 @@ Transform:
   m_GameObject: {fileID: 332136376}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 34.21, y: 34.21, z: 11.78}
 =======
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
   m_LocalPosition: {x: 34.21, y: 34.6, z: 11.78}
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1013,7 +1025,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   moveSpeed: 3
+=======
+  moveSpeed: 2
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+  moveSpeed: 2
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
   moveSpeed: 2
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
@@ -1030,7 +1050,13 @@ MonoBehaviour:
     m_Bits: 1024
   orientation: {fileID: 1581640571}
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 --- !u!82 &332136380
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1140,6 +1166,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stepping: {fileID: 1861564438}
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 --- !u!1 &366751089
 GameObject:
@@ -1208,7 +1240,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 6
+=======
+  m_RootOrder: 11
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+  m_RootOrder: 11
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
   m_RootOrder: 11
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
@@ -1426,6 +1466,12 @@ Transform:
   m_Father: {fileID: 1925551375}
 =======
   m_Father: {fileID: 808899289}
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1502,7 +1548,15 @@ GameObject:
   m_Component:
   - component: {fileID: 552207747}
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 552207748}
+=======
+  - component: {fileID: 552207746}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+  - component: {fileID: 552207746}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
   - component: {fileID: 552207746}
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
@@ -1514,7 +1568,13 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 --- !u!114 &552207746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1528,6 +1588,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 870461040}
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 --- !u!4 &552207747
 Transform:
@@ -1542,6 +1608,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1558,6 +1626,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 870461040}
+=======
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2086,7 +2162,15 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_AnchoredPosition: {x: -398, y: 203}
+=======
+  m_AnchoredPosition: {x: -722.9, y: 361.2}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+  m_AnchoredPosition: {x: -722.9, y: 361.2}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
   m_AnchoredPosition: {x: -722.9, y: 361.2}
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
@@ -2281,7 +2365,15 @@ Transform:
   m_GameObject: {fileID: 931231403}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -9.059998, y: 0.70000017, z: -29.059998}
+=======
+  m_LocalPosition: {x: 40.940002, y: 0.70000017, z: 20.94}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+  m_LocalPosition: {x: 40.940002, y: 0.70000017, z: 20.94}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
   m_LocalPosition: {x: 40.940002, y: 0.70000017, z: 20.94}
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
@@ -2301,7 +2393,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 3c5f64c23d26f3d4d81e47ef860e2fe1, type: 3}
+=======
+  m_Script: {fileID: 11500000, guid: b18849284241f2f42a03760bbe68457e, type: 3}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+  m_Script: {fileID: 11500000, guid: b18849284241f2f42a03760bbe68457e, type: 3}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
   m_Script: {fileID: 11500000, guid: b18849284241f2f42a03760bbe68457e, type: 3}
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
@@ -2923,7 +3023,15 @@ Transform:
   m_GameObject: {fileID: 1579135049}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -13.800003, y: 0.638, z: -13.243996}
+=======
+  m_LocalPosition: {x: 36.199997, y: 0.638, z: 36.756}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+  m_LocalPosition: {x: 36.199997, y: 0.638, z: 36.756}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
   m_LocalPosition: {x: 36.199997, y: 0.638, z: 36.756}
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
@@ -2943,6 +3051,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 3c5f64c23d26f3d4d81e47ef860e2fe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -2953,10 +3063,20 @@ Transform:
   m_PrefabInstance: {fileID: 380623708}
   m_PrefabAsset: {fileID: 0}
 =======
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
   m_Script: {fileID: 11500000, guid: b18849284241f2f42a03760bbe68457e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 332136380}
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 --- !u!1 &1581640570
 GameObject:
@@ -3008,6 +3128,12 @@ GameObject:
 <<<<<<< HEAD
 =======
   - component: {fileID: 1646581439}
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
   - component: {fileID: 1646581442}
   m_Layer: 0
@@ -3046,6 +3172,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 961c7b85f3811794192c1264e545609d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 --- !u!81 &1646581440
 AudioListener:
@@ -3205,7 +3337,15 @@ Transform:
   m_GameObject: {fileID: 1674192624}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -23.46, y: 0.53, z: -37.426}
+=======
+  m_LocalPosition: {x: 26.54, y: 0.53, z: 12.574}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+  m_LocalPosition: {x: 26.54, y: 0.53, z: 12.574}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
   m_LocalPosition: {x: 26.54, y: 0.53, z: 12.574}
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
@@ -3225,7 +3365,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 3c5f64c23d26f3d4d81e47ef860e2fe1, type: 3}
+=======
+  m_Script: {fileID: 11500000, guid: b18849284241f2f42a03760bbe68457e, type: 3}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+  m_Script: {fileID: 11500000, guid: b18849284241f2f42a03760bbe68457e, type: 3}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
   m_Script: {fileID: 11500000, guid: b18849284241f2f42a03760bbe68457e, type: 3}
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
@@ -3324,7 +3472,15 @@ Transform:
   m_GameObject: {fileID: 1697003959}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -28.825996, y: 0.296, z: -13.2859955}
+=======
+  m_LocalPosition: {x: 21.174002, y: 0.296, z: 36.714}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+  m_LocalPosition: {x: 21.174002, y: 0.296, z: 36.714}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
   m_LocalPosition: {x: 21.174002, y: 0.296, z: 36.714}
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
@@ -3344,7 +3500,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 3c5f64c23d26f3d4d81e47ef860e2fe1, type: 3}
+=======
+  m_Script: {fileID: 11500000, guid: b18849284241f2f42a03760bbe68457e, type: 3}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+  m_Script: {fileID: 11500000, guid: b18849284241f2f42a03760bbe68457e, type: 3}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
   m_Script: {fileID: 11500000, guid: b18849284241f2f42a03760bbe68457e, type: 3}
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
@@ -3446,7 +3610,15 @@ RectTransform:
   - {fileID: 870461039}
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 5
+=======
+  m_RootOrder: 10
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+  m_RootOrder: 10
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
   m_RootOrder: 10
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
@@ -4200,11 +4372,17 @@ Transform:
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &2014964722 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2358920324842080545, guid: da2ff6588ca33c54cb5b72ae7eea8f83, type: 3}
   m_PrefabInstance: {fileID: 829605827}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 --- !u!1 &2031747038
@@ -4334,7 +4512,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 8
+=======
+  m_RootOrder: 13
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+  m_RootOrder: 13
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
   m_RootOrder: 13
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31

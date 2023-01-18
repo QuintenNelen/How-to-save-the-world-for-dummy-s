@@ -1650,6 +1650,8 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b6934db7d9c75646bc9ba36c7d7a40d, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &806412232
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1850,6 +1852,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9117bf18dc363924ca36b964f07095e5, type: 3}
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 --- !u!1 &881803434
@@ -3207,10 +3213,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 1581848217}
     - target: {fileID: 4057945781967010265, guid: 104cd8a4e7b28254c9f80fd50f673aad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
       objectReference: {fileID: 0}
@@ -4614,6 +4626,12 @@ GameObject:
   - component: {fileID: 1596390857}
   - component: {fileID: 1596390859}
   - component: {fileID: 1596390858}
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
   m_Layer: 0
   m_Name: Player
@@ -4799,7 +4817,15 @@ MonoBehaviour:
   interactionPromtUI: {fileID: 240904585}
   numFound: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &1596390861
+=======
+--- !u!114 &1596390857
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+--- !u!114 &1596390857
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
 --- !u!114 &1596390857
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
@@ -4811,6 +4837,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 1596390849}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 6511d3ac9f1f76943a060a916c3c76f5, type: 3}
   m_Name: 
@@ -4829,6 +4857,12 @@ MonoBehaviour:
 =======
   m_Script: {fileID: 11500000, guid: 02c566b267c66114c99c08cdf4d23255, type: 3}
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+  m_Script: {fileID: 11500000, guid: 02c566b267c66114c99c08cdf4d23255, type: 3}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+  m_Script: {fileID: 11500000, guid: 02c566b267c66114c99c08cdf4d23255, type: 3}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
@@ -4840,7 +4874,13 @@ MonoBehaviour:
   orientation: {fileID: 1167272368}
   rb: {fileID: 1596390850}
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 --- !u!114 &1596390858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4950,6 +4990,12 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 --- !u!114 &1605066343 stripped
 MonoBehaviour:
@@ -5556,6 +5602,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9bfe8e041440a34e91278ce2331fffa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 --- !u!4 &1791455580 stripped
 Transform:
@@ -6525,6 +6577,8 @@ Transform:
   m_PrefabInstance: {fileID: 2096796347}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &2114824040
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6589,6 +6643,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 --- !u!1001 &46252483053989326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6608,7 +6666,15 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 5438873483737624097}
+=======
+      objectReference: {fileID: 5438873483737624092}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+      objectReference: {fileID: 5438873483737624092}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
       objectReference: {fileID: 5438873483737624092}
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
@@ -6640,7 +6706,15 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 5438873483737624097}
+=======
+      objectReference: {fileID: 5438873483737624092}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+      objectReference: {fileID: 5438873483737624092}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
       objectReference: {fileID: 5438873483737624092}
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
@@ -7370,7 +7444,15 @@ GameObject:
   m_PrefabInstance: {fileID: 46252483053989326}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &5438873483737624097
+=======
+--- !u!114 &5438873483737624092
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+--- !u!114 &5438873483737624092
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
 --- !u!114 &5438873483737624092
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
@@ -7383,7 +7465,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 970fded89aa2fde4a8059613a3269940, type: 3}
+=======
+  m_Script: {fileID: 11500000, guid: a77d2bc807ac48248920cc62b8fde1a6, type: 3}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+  m_Script: {fileID: 11500000, guid: a77d2bc807ac48248920cc62b8fde1a6, type: 3}
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
   m_Script: {fileID: 11500000, guid: a77d2bc807ac48248920cc62b8fde1a6, type: 3}
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31

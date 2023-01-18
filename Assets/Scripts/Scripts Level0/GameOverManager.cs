@@ -20,7 +20,15 @@ public class GameOverManager : MonoBehaviour
     {
         //Debug.Log("restarted");
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         SceneManager.LoadScene(5); //reload scene
+=======
+        SceneManager.LoadScene(2); //reload scene
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+        SceneManager.LoadScene(2); //reload scene
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
 =======
         SceneManager.LoadScene(2); //reload scene
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31

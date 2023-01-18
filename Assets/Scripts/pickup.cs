@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class pickup : MonoBehaviour
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -16,6 +18,10 @@ public class pickup : MonoBehaviour
             followingLevel.points += 1;
         }
 =======
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
     public AudioSource audioSource;
     void OnTriggerEnter(Collider other)
     {
@@ -28,6 +34,12 @@ public class pickup : MonoBehaviour
             Debug.Log(followingLevel.points);
         }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
+>>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
+=======
 >>>>>>> 86854edd2d0f1e03e7e610f70784ef4ac0d05e31
     }
 }
